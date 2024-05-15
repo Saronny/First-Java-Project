@@ -11,14 +11,15 @@ public class MenuScreen {
         Calculator calc = new Calculator();
         showMenu();
         System.out.print("Enter your choice: ");
-        String choice = System.console().readLine();
+        int choice = filterNumber(System.console().readLine());
         int num1 = 0;
         int num2 = 0;
-        if (filterNumber(choice) == 5) {
+        
+        if (choice == 5) {
             System.out.println("Exiting...");
             return;
         }
-        if (filterNumber(choice) < 1 || filterNumber(choice) > 5) {
+        if (choice < 1 || choice > 5) {
             System.out.println("Invalid choice");
             return;
         }
@@ -28,7 +29,8 @@ public class MenuScreen {
         System.out.print("Enter second number: ");
         String number2 = System.console().readLine();
         num2 = filterNumber(number2);
-        switch (filterNumber(choice)) {
+
+        switch (choice) {
             case 1:
                 System.out.println("Result: " + calc.add(num1, num2));
                 break;

@@ -1,18 +1,32 @@
+# Calculator App
+
+This is a simple calculator app built using Java.
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Clone the repository.
+2. Open the project in your favorite Java IDE.
+3. Build and run the project.
 
-## Folder Structure
+## Usage
 
-The workspace contains two folders by default, where:
+1. Enter two numbers.
+2. Select the operation you want to perform.
+3. Click on the "Calculate" button.
+4. The result will be displayed on the screen.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Contributing
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## License
 
-## Dependency Management
+This project is licensed under the [MIT License](LICENSE).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
